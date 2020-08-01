@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pb;
+
+
+
+//The Icart service definition.
+service Icart {
+ rpc SignIn (SignInRequest) returns (SignInReply);
+}
+
+message SignInRequest {}
+
+message SignInReply {}
+
